@@ -75,6 +75,7 @@
     * Reference paper: [Value-Decomposition Networks For Cooperative Multi-Agent Learning ( Section 4.2)](https://arxiv.org/abs/1706.05296)
 
     ![Switch2-v0](Switch2-v0.gif)
+    ![Switch2-v0 - Solved](doc/policy.gif)
 
 * Loops while max number of episodes is not reached (default: `n_episodes = 10000`):
     * Get actions from agents based on current `obs`: `actions = agents.get_actions(obs)` and then perform actions in environment and receive `next_obs, reward, done_n, _ = env.step(actions)`
